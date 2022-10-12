@@ -1,0 +1,367 @@
+*{font-family: 'Montserrat', sans-serif;}
+
+/*ENCABEZADO*/
+
+.encabezado{
+    display: flex;
+    width: 100vw;
+    padding: 3vw 8vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.logo{
+    width: 30px;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+}
+.logotipo:hover{
+    transform: scale(1.3);
+    transition: all 1.5s;
+}
+
+.menu__link{
+    padding: 1rem;
+}
+
+.menu__link:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: gray;
+    font-weight: bold;
+}
+
+/*PRESENTACION*/
+
+.presentacion{
+    display: flex;
+    width: 100vw;
+    padding: 2vw 8vw;
+    align-items: center;
+}
+
+.presentacion_foto{
+    margin: 0 1rem;
+}
+.presentacion__titulo{
+    font-size: 2.3rem;
+}
+.presentacion__info{
+    font-size: 1.1rem;
+}
+
+.redes{
+    display: flex;
+}
+
+.item{
+    padding-right: 0.5rem;
+}
+.item:hover{
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.foto{
+    width: 20vw;
+}
+
+
+/*SOBRE MI*/
+.content{
+    background-color: rgb(123, 218, 255,.15);
+    width: 100vw;
+}
+.aboutMe{
+    width: 70vw;
+    padding: 2vw 8vw;
+    text-align: justify;
+    
+}
+
+.aboutMe__titulo{
+    font-size: 2rem;
+}
+.aboutMe__text{
+    font-size: 1rem;
+}
+
+/**/
+
+
+/*SKILLS*/
+
+.skills{
+    width: 100vw;
+    padding: 0vw 8vw;
+    padding-top: 2vw;
+    text-align: center;
+}
+
+.skills__contenido{
+    display: flex;
+    padding: 2vw 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__card{
+    display: flex;
+    width: calc(20vw - 1rem);
+    height: 130px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.skills__card:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+    text-shadow: 6px black;
+}
+
+
+/*HOBBIES*/
+
+.hobbies{
+    width: 100vw;
+    padding: 2vw 8vw;
+    text-align: center;
+}
+
+.hobbies__card:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+    text-shadow: 6px black;
+}
+
+.hobbies_contenido{
+    display: flex;
+    flex-direction: row;
+    padding: 2vw 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbies__card{
+    display: flex;
+    width: calc(20vw - 1rem);
+    height: 130px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+/*FORMACION*/
+
+.formacion{
+    width: 100vw;
+    padding: 2vw 8vw;
+    background-color: rgb(123, 218, 255,.15);
+}
+
+.tituloSeccion{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 2rem;
+}
+
+.formacion_contenido{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 10px;
+}
+
+.formacion__card{
+    padding: 1rem 1rem;
+    display: grid;
+    grid-template-areas:
+    "image-card"
+    "contenido-card";
+    grid-template-columns: 100%;
+    grid-template-rows: 173px auto;
+    width: 25vw;
+    justify-content: center;
+}
+
+.formacion__card:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+}
+
+.formacion__card___image{
+    display: flex;
+    justify-content: center;
+}
+
+.formacion-img{
+    grid-area: image-card;
+    width: auto;
+    height: 100%;
+}
+.formacion__card___contenido{
+    grid-area: contenido-card;
+    display: grid;
+    grid-template-columns:
+    "card-header"
+    "card-info";
+    grid-template-rows: auto;   
+}
+
+.formacion_titulo{
+    grid-column: card-header;
+
+}
+.formacion_info{
+    grid-area: card-info;
+    margin: 0;
+   
+}
+
+/*PROYECTOS*/
+
+.proyectos{
+    width: 100vw;
+    padding: 2vw 8vw;
+}
+
+.proyectos_contenido{
+    display: grid;
+    grid-template-areas: 
+    "card1"
+    "card2";
+    grid-row-gap:2rem;
+}
+
+.proyectos__card___image{
+    display: grid;
+    width: 35vw;
+    grid-template-areas: "imagen";
+    grid-template-columns: 35vw;
+}
+
+.portada-proyecto{
+    grid-area: imagen;
+    width: 100%;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.portada-proyecto:hover{
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.portada-proyecto_video{
+    grid-area: imagen;
+    width: 100%;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.proyectos__card___contenido{
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.proyectos__card1{
+    display: flex;
+    align-items: center;
+}
+
+.proyectos__card2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.proyectos__boton{
+    border-radius: 1vw;
+    border-width: 0ch;
+    padding: 1vw;
+    font-weight: bold;
+}
+.proyectos__boton:hover{
+    transform: scale(1.06);
+    background-color: rgb(123, 218, 255,.5);
+}
+
+
+/*CONTACTO*/
+
+.contacto{
+    width: 100vw;
+    padding: 2vw 8vw;
+    background-color: rgb(123, 218, 255,.15);
+}
+
+.contacto_titulo{
+    padding: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.cajaContacto{
+    width: 85vw; 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.contacto__campos{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw 4vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 3vw;
+}
+
+.contacto__image{
+    width: 30vw;
+}
+
+.input-padron{
+    padding: 5px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border-width: 0ch;
+    color: darkgray;
+}
+
+label{
+    font-weight: bold;
+}
+
+.enviar{
+    width: 15vw;
+    padding: 10px;
+    border-radius: 1vw;
+    border-width: 0ch;
+    padding: 1vw;
+    font-weight: bold;
+    background:rgba(123, 218, 255,.15);
+}
+
+.enviar:hover{
+    transform: scale(1.06);
+    background:rgba(123, 218, 255,.5);
+}
+
+
+/*FOOTER*/
+
+.footer_text{
+    text-align: center;
+    padding: 1rem 8rem;
+    padding-top:3rem ;
+    font-size: 0.8rem;
+}
