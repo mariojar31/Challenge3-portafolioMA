@@ -1,5 +1,7 @@
 *{font-family: 'Montserrat', sans-serif;}
 
+@media only screen and (min-width: 992px) {
+  
 /*ENCABEZADO*/
 
 .encabezado{
@@ -10,6 +12,10 @@
     align-items: center;
     height: 3rem;
     font-size: 1rem;
+}
+
+.menu__item{
+    display: flex;
 }
 
 .logo{
@@ -90,9 +96,6 @@
 .aboutMe__text{
     font-size: 1rem;
 }
-
-/**/
-
 
 /*SKILLS*/
 
@@ -364,4 +367,5 @@ label{
     padding: 1rem 8rem;
     padding-top:3rem ;
     font-size: 0.8rem;
+}
 }

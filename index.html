@@ -12,6 +12,7 @@
     <link href="CSS/normalize.css" rel="stylesheet">
     <link href="CSS/reset.css" rel="stylesheet">
     <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/responsive.css" rel="stylesheet">
 </head>
 
 <body class="portafolio">
@@ -24,7 +25,7 @@
         <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu__item">
-
+                    <div class="menu_hide">
                     <a class="menu__link" href="#aboutMe">
                         Sobre mi</a>
                     <a class="menu__link" href="#skills">
@@ -35,8 +36,10 @@
                         Formación</a>
                     <a class="menu__link" href="#proyectos">
                         Proyectos</a>
-                    <a class="menu__link" href="#contacto">              
+                    </div>
+                    <div class="contacto_link"><a class="menu__link"  href="#contacto">              
                         Contacto</a>
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -51,9 +54,9 @@
 
                     <div class="links">
                         <ul class="redes">
-                            <li class="item"><a href="https://github.com/mariojar31">GitHub</a><img src="imagenes/arrow_back_black_24dp 1.png"></li>
-                            <li class="item"><a href="https://www.linkedin.com/in/mario-acendra/">LinkedIn</a><img src="imagenes/arrow_back_black_24dp 1.png"></li>
-                            <li class="item"><a href="#">Curriculum</a><img src="imagenes/arrow_back_black_24dp 1.png"></li>
+                            <li class="item"><a href="https://github.com/mariojar31">GitHub</a><img src="imagenes/arrow_back_black_24dp 1.png" width="18px"></li>
+                            <li class="item"><a href="https://www.linkedin.com/in/mario-acendra/">LinkedIn</a><img src="imagenes/arrow_back_black_24dp 1.png" width="18px"></li>
+                            <li class="item"><a href="#">Curriculum</a><img src="imagenes/arrow_back_black_24dp 1.png" width="18px"></li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +66,7 @@
                 
             </div>
             <div class="content">
-                <div class="aboutMe">
+                <div class="aboutMe" id="aboutMe">
                     <h2 class="aboutMe__titulo">Sobre mi</h2>
                     <div class="aboutMe__text">
                         <p>Me he desempeñado como diseñador gráfico y publicitario freelancer durante varios años. En mi trabajo siempre he tenido en cuenta como un factor principal la experiencia del usuario con el producto. Desde muy joven me ha interesado el mundo de la programación, por lo que me he dedicado a documentarme en el téma y actualmente me encuentro en formación académica como desarrollador gracias a la grán oportunidad que me ha brindado el programa ONE de Oracle y Alura.</p>
@@ -75,12 +78,12 @@
         </section>
 
         <section class="boxContents">
-            <section class="skills">
+            <section class="skills" id="skills">
                 <h2 class="tituloSeccion">Skills</h2>
                 <div class="skills__contenido">
                     <div class="skills__card">
                         <div class="skills__card___image">
-                            <img src="imagenes/html.png">
+                            <img class="iconos" src="imagenes/html.png">
                         </div>
                         <div class="skills__card___contenido">
                             <p class="skill_titulo">HTML5</p>
@@ -88,7 +91,7 @@
                     </div>
                     <div class="skills__card">
                         <div class="skills__card___image">
-                            <img src="imagenes/angular-01-01.png">
+                            <img class="iconos" src="imagenes/angular-01-01.png">
                         </div>
                         <div class="skills__card___contenido">
                             <p class="skill_titulo">Angular</p> 
@@ -96,7 +99,7 @@
                     </div>
                     <div class="skills__card">
                         <div class="skills__card___image">
-                            <img src="imagenes/node.png">
+                            <img class="iconos" src="imagenes/node.png">
                         </div>
                         <div class="skills__card___contenido">
                             <p class="skill_titulo">NodeJS</p>
@@ -104,7 +107,7 @@
                     </div>
                     <div class="skills__card">
                         <div class="skills__card___image">
-                            <img src="imagenes/css.png">
+                            <img class="iconos" src="imagenes/css.png">
                         </div>
                         <div class="skills__card___contenido">
                             <p class="skill_titulo">CSS</p>
@@ -112,7 +115,7 @@
                     </div>
                     <div class="skills__card">
                         <div class="skills__card___image">
-                            <img src="imagenes/javascript.png">
+                            <img class="iconos" src="imagenes/javascript.png">
                         </div>
                         <div class="skills__card___contenido">
                             <p class="skill_titulo">JavaScript</p>
@@ -120,7 +123,7 @@
                     </div>
                     <div class="skills__card">
                         <div class="skills__card___image">
-                            <img src="imagenes/adobexd-01.png">
+                            <img class="iconos" src="imagenes/adobexd-01.png">
                         </div>
                         <div class="skills__card___contenido">
                             <p class="skill_titulo">AdobeXD</p>
@@ -128,7 +131,7 @@
                     </div>
                     <div class="skills__card">
                         <div class="skills__card___image">
-                            <img src="imagenes/adobecs-01.png">        
+                            <img class="iconos" src="imagenes/adobecs-01.png">        
                         </div>
                         <div class="skills__card___contenido">
                             <p class="skill_titulo">Adobe Creative Suit</p>
@@ -138,12 +141,12 @@
                 
             </section>
             
-            <section class="hobbies">
+            <section class="hobbies" id="hobbies">
                 <h2 class="tituloSeccion">Hobbies</h2>
                 <div class="hobbies_contenido">
                     <div class="hobbies__card">
                         <div class="hobbies__card___image">
-                            <img src="imagenes/hobbies/bici.png">
+                            <img class="iconos" src="imagenes/hobbies/bici.png">
                         </div>
                         <div class="hobbies__card___contenido">
                             <p class="hobbies_titulo">Ruta</p>
@@ -151,7 +154,7 @@
                     </div>
                     <div class="hobbies__card">
                         <div class="hobbies__card___image">
-                            <img src="imagenes/hobbies/guitar.png">
+                            <img class="iconos" src="imagenes/hobbies/guitar.png">
                         </div>
                         <div class="hobbies__card___contenido">
                             <p class="hobbies_titulo">Tocar Guitarra</p>
@@ -159,7 +162,7 @@
                     </div>
                     <div class="hobbies__card">
                         <div class="hobbies__card___image">
-                            <img src="imagenes/hobbies/tv_black_24dp 1.png">
+                            <img class="iconos" src="imagenes/hobbies/tv_black_24dp 1.png">
                         </div>
                         <div class="hobbies__card___contenido">
                             <p class="hobbies_titulo">Ver Series</p>
@@ -167,7 +170,7 @@
                     </div>
                     <div class="hobbies__card">
                         <div class="hobbies__card___image">
-                            <img src="imagenes/hobbies/restaurant_menu_black_24dp 1.png">
+                            <img class="iconos" src="imagenes/hobbies/restaurant_menu_black_24dp 1.png">
                         </div>
                         <div class="hobbies__card___contenido">
                             <p class="hobbies_titulo">Cocinar</p>
@@ -176,41 +179,49 @@
                 </div>
             </section>
 
-            <section class="formacion">
+            <section class="formacion" id="formacion">
                 <h2 class="tituloSeccion">Formación</h2>
-                <div class="formacion_contenido">
+                <div class="formacion_contenido">                  
                     <div class="formacion__card">
                         <div class="formacion__card___image">
                             <img class="formacion-img" src="imagenes/formacion/sena.png">
                         </div>
-                        <div class="formacion__card___contenido">
-                            <h3 class="formacion_titulo">Analisis y Desarrollo de Sistemas de Información</h3>
-                            <p class="formacion_info">2022</p>
+                        <div class="contenedor_formacion__card___contenido">
+                            <div class="formacion__card___contenido">
+                                <h3 class="formacion_titulo">Analisis y Desarrollo de Sistemas de Información</h3>
+                                <p class="formacion_info">2022</p>
+                            </div>
                         </div>
                     </div>
+                    
                     <div class="formacion__card">
                         <div class="formacion__card___image">
                             <img class="formacion-img" src="imagenes/formacion/coursera.png">
                         </div>
-                        <div class="formacion__card___contenido">
-                            <h3 class="formacion_titulo">Diseño de Experiencia de Usuario de Google </h3>
-                            <p class="formacion_info">2022</p>
+                        <div class="contenedor_formacion__card___contenido">
+                            <div class="formacion__card___contenido">
+                                <h3 class="formacion_titulo">Diseño de Experiencia de Usuario de Google </h3>
+                                <p class="formacion_info">2022</p>
+                            </div>
                         </div>
                     </div>
+                    
                     <div class="formacion__card">
                         <div class="formacion__card___image">
                             <img class="formacion-img" src="imagenes/formacion/alura.png">
                         </div>
-                        <div class="formacion__card___contenido">
-                            <h3 class="formacion_titulo">Proyecto Oracle ONE</h3>
-                            <p class="formacion_info">En curso</p>
+                        <div class="contenedor_formacion__card___contenido">
+                            <div class="formacion__card___contenido">
+                                <h3 class="formacion_titulo">Proyecto Oracle ONE</h3>
+                                <p class="formacion_info">En curso</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
             </section>
 
-            <section class="proyectos">
+            <section class="proyectos" id="proyectos">
                 <h2 class="tituloSeccion">Proyectos</h2>
                 <div class="proyectos_contenido">
                     <div class="proyectos__card1">
@@ -245,7 +256,7 @@
                     </div>
         </section>
         
-        <section class="contacto">
+        <section class="contacto" id="contacto">
             <h2 class="contacto_titulo">Contacto:</h2>
             <div class="cajaContacto">
                 <img class="contacto__image" src="imagenes/contact-me-02.png">
@@ -262,7 +273,7 @@
                     <input type="tel" name="TelefonoContacto" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
 
                     <label for="mensaje">Mensaje</label>
-                    <textarea cols="70" rows="10" id="mensaje" name="textMensaje" class="input-padron" required></textarea>
+                    <textarea cols="70" rows="10" id="mensaje" name="textMensaje" class="input-padron" placeholder="Escriba aquí su mensaje..." required></textarea>
                     <input type="hidden" name="_url" value="https://mariojar31.github.io/Challenge3-portafolioMA/">
                     <input type="hidden" name="_next" value="https://mariojar31.github.io/Challenge3-portafolioMA/">
                     <input type="submit" value="Enviar Mensaje" class="enviar">
