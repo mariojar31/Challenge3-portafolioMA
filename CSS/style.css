@@ -18,6 +18,10 @@
     display: flex;
 }
 
+.menu__link, .redes__link{
+    color: rgb(128, 128, 128);
+}
+
 .logo{
     width: 30px;
 }

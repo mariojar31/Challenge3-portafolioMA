@@ -26,6 +26,10 @@
         display: none;
     }
 
+    .menu__link, .redes__link{
+        color: rgb(128, 128, 128);
+    }
+
     /*PRESENTACION*/
     
     .presentacion{
@@ -363,7 +367,7 @@
      /*SKILLS*/
     
      .skills__card{
-        width: calc(30vw - 1rem);
+        width: calc(33vw - 1rem);
         height: 100px;
     }
 
