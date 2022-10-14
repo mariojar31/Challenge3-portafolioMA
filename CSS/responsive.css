@@ -70,7 +70,7 @@
    
     .aboutMe{
         width: 100vw;
-        padding: 3vw 4vw;
+        padding: 4vw 4vw;
         text-align: justify;
         
     }
@@ -369,6 +369,13 @@
      .item:hover{
          font-weight: bold;
      }
+
+     /*SOBRE MI*/
+
+     .aboutMe{
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+     }
  
      /*SKILLS*/
     
@@ -431,10 +438,6 @@
         width: 100%;
         padding: 0.7rem 1rem;
     }
-
-
-
-
 
 
 }
