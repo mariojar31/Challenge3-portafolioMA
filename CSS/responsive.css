@@ -330,6 +330,12 @@
 
 /*Telefonos*/
 @media only screen and (max-width: 600px) {
+
+    /*ENCABEZADO*/
+    .menu__link, .redes__link{
+        font-size: 1.2rem;
+    }
+
     /*PRESENTACION*/
      
     .presentacion{
@@ -402,6 +408,30 @@
     .formacion_contenido{
         flex-direction: column-reverse;
     }
+
+    /*PROYECTOS*/
+    .proyectos__boton{
+        padding: 0.7rem 1rem;
+    }
+
+    /*CONTACTO*/
+
+    .cajaContacto{
+        width: 90vw;
+    }
+    .contacto__campos{
+        width: 90vw;
+    }
+
+    .input-padron{
+    padding: 0.7rem 0.5rem;
+    }
+
+    .enviar{
+        width: 100%;
+        padding: 0.7rem 1rem;
+    }
+
 
 
 
