@@ -249,6 +249,10 @@
     grid-row-gap:2rem;
 }
 
+.proyectos_titulo{
+    font-size: 2rem;
+}
+
 .proyectos__card___image{
     display: grid;
     width: 35vw;
